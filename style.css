@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(88, 32, 8);
+    position: fixed;
+
+}
+
+header h1 {
+    color: bisque;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+header h1:hover {
+    text-shadow: 0px 0px 15px bisque;
+}
+
+body {
+    background-color: rgb(88, 32, 8);
+}
+
+#banner {
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://assets.bonappetit.com/photos/5c366551f212512d0e6cefd0/16:9/w_1920,c_limit/Basically-Coffee-0219-03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.row {
+    width: 90%;
+    height: 80vh;
+    background-color: rgb(33, 33, 33);
+    border-radius: 25px;
+    margin: 50px;
+
+}
+
+.row h1 {
+    padding-top: 20px;
+    color: bisque;
+    text-align: center;
+}
+
+.col {
+    width: 25%;
+    height: 400px;
+    background-color: rgb(85, 32, 32);
+    float: left;
+    margin: 40px;
+    /* margin-top: 40px; */
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 3px 15px 5px black;
+}
+
+.col h1 {
+
+    color: black;
+}
+
+.col img {
+    width: 250px;
+    height: 250px;
+    border-radius: 35px;
+    padding: 20px;
+}
+
+.c1 {
+    margin-left: 90px;
+}
+
+.col button {
+    /* margin-left: 150px; */
+    font-size: large;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+.col button:hover {
+    background-color: rgb(2, 0, 0);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px 3px rgb(61, 7, 7);
+}
+
+.col:hover {
+    box-shadow: 2px 3px 15px 5px gray;
+}
+
+/* Premium Categories */
+#categories {
+    background-color:antiquewhite;
+    height: 80vh;
+    text-align: center;
+}
+
+#categories>h1 {
+    /* margin-top: 100px; */
+    padding-top: 25px;
+}
+
+.categories {
+    width: 100%;
+    height: 60vh;
+    background-color:antiquewhite;
+
+}
+
+.citems {
+    /* background-color: aquamarine; */
+    width: 500px;
+    height: 125px;
+    float: left;
+    border-radius: 25px;
+    margin-top: 100px;
+    margin-left: 200px;
+    /* margin-bottom: ; */
+    background-image: url(./img/item.png);
+    background-position: center;
+    color: aliceblue;
+}
+
+.citems h1 {
+    /* display: inline; */
+    /* vertical-align: top; */
+    margin-right: 200px;
+    margin-top: 25px;
+    margin-left: 25px;
+    float: left;
+    padding-top: px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.citems img {
+    /* display: inline; */
+    width: 75px;
+    height: 75px;
+    float: left;
+    /* vertical-align: bottom; */
+    margin-top: 25px;
+}
+
+/* services */ 
+#services{
+    height: 86vh;
+    text-align: center;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+    margin: auto;
+    color: antiquewhite;
+}
+
+#services button{
+    /* width: 100%; */
+    /* text-align: center; */
+    display: block;
+    margin-top: 526px;
+    margin-left: 725px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+#services button:hover{
+    box-shadow: 0px 0px 3px 5px black;
+}
+
+.cards{
+    width: 300px;
+    float: left;
+    margin: 20px 102px;
+}
+
+.cards img{
+    width: 100%;
+}
+
+.cards a:hover{
+    text-decoration: underline;
+    font-size: large;
+}
+
+
+/* location */
+#loc{
+    width: 100%;
+    height: 80vh;
+    padding-top:15px;
+    background-color: antiquewhite;
+}
+
+.locs{
+    width: 450px;
+    margin-left: 50px;
+    height: 500px;
+    float: left;
+}
+
+.locs div img{
+    width: 32%;
+    height: 33%;
+}
+
+
+
+
+
+footer {
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+}
+
+footer .flocs {
+    float: left;
+    margin-left: 14%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
